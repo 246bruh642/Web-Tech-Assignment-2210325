@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <title>RM1 CAMPAIGN</title>
+</head>
+<body>
+    
+    <header>
+        <img src="images/Logo.jpg" alt="IIUM Logo" class="logo">
+        <h1>RM1 CAMPAIGN</h1>
+        <img src="images/donation.jpg" alt="Donation Picture" class="donation">
+        <p class="tagline">Let your contributions be perpetual for the pleasure of Allah swt</p>
+    </header>
+
+
+  
+  <div class="column-layout">
+    <div class="main-column">
+    
+      <h2>Monthly Salary Deduction Form</h2>
+      <form id="deductionForm">
+       
+        <label for="name">Name:</label>
+        <p> </p>
+        <input type="text" id="name" name="name" pattern="^[A-Za-z\s]+$" required>
+        <p> </p>
+
+        <label for="staffNo">Staff No:</label>
+        <p> </p>
+        <input type="text" id="staffNo" name="staffNo" required>
+        <p> </p>
+
+        <label for="id">K/C/D/I/O :</label>
+        <p> </p>
+        <input type="text" id="id" name="id" required>
+        <p> </p>
+
+        <label for="contactNo">Contact No:</label>
+        <p> </p>
+        <input type="tel" id="contactNo" name="contactNo" pattern="[0-9]{10}" placeholder="Enter a 9-digit phone number" required>
+        <p> </p>
+
+        <label for="email">Email:</label>
+        <p> </p>
+        <input type="email" id="email" name="email" required>
+        <p> </p>
+
+        <label for="amount">Amount to be deducted:</label>
+        <p> </p>
+        <input type="number" id="amount" name="amount" min="1" required>
+        <p> </p>
+
+        <p>The above salary deduction will take effect from </p>
+
+        <label for="deductionFromMonth">Month</label>
+            <select id="deductionFromMonth" name="deductionFromMonth" required>
+                <option value="" disabled selected>Select Month</option>
+                <option value="January">January</option>
+                <option value="February">February</option>
+                <option value="March">March</option>
+                <option value="April">April</option>
+                <option value="May">May</option>
+                <option value="June">June</option>
+                <option value="July">July</option>
+                <option value="August">August</option>
+                <option value="September">September</option>
+                <option value="October">October</option>
+                <option value="November">November</option>
+                <option value="December">December</option>
+            </select>
+
+        <label for="deductionFromYear">Year</label>
+            <select id="deductionFromYear" name="deductionFromYear" required>
+                <option value="" disabled selected>Select Month</option>
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
+                <option value="2025">2025</option>
+                <option value="2026">2026</option>
+                <option value="2027">2027</option>
+                <option value="2028">2028</option>
+                <option value="2029">2029</option>
+                <option value="2030">2030</option>
+                <option value="2031">2031</option>
+                <option value="2032">2032</option>
+                <option value="2033">2033</option>
+            </select>
+
+        <p>until</p>
+
+        <label for="deductionToMonth">Month</label>
+        <select id="deductionToMonth" name="deductionToMonth" required>
+            <option value="" disabled selected>Select Month</option>
+            <option value="January">January</option>
+            <option value="February">February</option>
+            <option value="March">March</option>
+            <option value="April">April</option>
+            <option value="May">May</option>
+            <option value="June">June</option>
+            <option value="July">July</option>
+            <option value="August">August</option>
+            <option value="September">September</option>
+            <option value="October">October</option>
+            <option value="November">November</option>
+            <option value="December">December</option>
+        </select>
+
+        <label for="deductiontoYear">Year</label>
+            <select id="deductiontoYear" name="deductiontoYear" required>
+                <option value="" disabled selected>Select Month</option>
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
+                <option value="2025">2025</option>
+                <option value="2026">2026</option>
+                <option value="2027">2027</option>
+                <option value="2028">2028</option>
+                <option value="2029">2029</option>
+                <option value="2030">2030</option>
+                <option value="2031">2031</option>
+                <option value="2032">2032</option>
+                <option value="2033">2033</option>
+            </select>
+            
+            <p> </p>
+
+            <label>
+                <input type="radio" id="selfRadio" name="category" value="Self" checked>
+                Self
+            </label>
+            
+            
+            <label>
+                <input type="radio" id="kulliyyahRadio" name="category" value="Kulliyyah-based">
+                Kulliyyah-based
+            </label>
+
+            <label for="Kulliyah"></label>
+            <select id="Kulliyah" name="Kulliyah" style="display: none;" required>
+                <option value="" disabled selected>Select Kulliyah</option>
+                <option value="Kulliyyah of Nursing">Kulliyyah of Nursing</option>
+                <option value="Kulliyyah of Information and Communication and Technology">Kulliyyah of Information and Communication and Technology</option>
+                <option value="AbdulHamid AbuSulayman Kulliyyah of Islamic Revealed Knowledge and Human Sciences">AbdulHamid AbuSulayman Kulliyyah of Islamic Revealed Knowledge and Human Sciences</option>
+                <option value="Kulliyyah of Dentistry">Kulliyyah of Dentistry</option>
+                <option value="Kulliyyah of Language Management">Kulliyyah of Language Management</option>
+                <option value="Kulliyyah of Science">Kulliyyah of Science</option>
+                <option value="Kulliyyah of Science">Kulliyyah of Science</option>
+                <option value="Kulliyyah of Pharmacy">Kulliyyah of Pharmacy</option>
+                <option value="Kulliyyah of Medicine">Kulliyyah of Medicine</option>
+                <option value="Kulliyyah of Engineering (KOE)">Kulliyyah of Engineering (KOE)</option>
+                <option value="Kulliyyah of Architecture and Environmental Design (KAED)">Kulliyyah of Architecture and Environmental Design (KAED) </option>
+                <option value="Kulliyyah of Economics and Management Sciences (KENMS)">Kulliyyah of Economics and Management Sciences (KENMS)</option>
+                <option value="Ahmad Ibrahim Kulliyyah of Law (AIKOL)">Ahmad Ibrahim Kulliyyah of Law (AIKOL)</option>
+                <option value="Kulliyyah of Education (KOED)">Kulliyyah of Education (KOED)</option>
+            </select>
+          
+            <p></p>
+            
+            <button>Submit</button>
+        </form>
+    </div>
+
+    <div class="sidebar-one">
+      <h3>Quranic Verse</h3>
+      <p>“The example of those who spend their wealth in the way of Allah is like a seed [of grain] which grows seven spikes; in each spike is a hundred grains. And Allah multiplies [His reward] for whom He wills. And Allah is all-Encompassing and Knowing.”</p>
+      <p>Al Baqarah:261</p>
+    </div>
+  
+    <div class="sidebar-two">
+      <h3>IUM Endowment Fund Contact Information</h3>
+      
+        <p>Address: </p>
+        <p>IIUM ENDOWMENT FUND Level 3, RectoryInternationa Islamic University MalaysiaP.O. Box 1050728 Kuala Lumpur</p>
+        <p>Tel: 03 6196 4268</p>
+        <p>Email: ief@iium.edu.my</p>
+        <p>Website: www.iium.edu.my/ief</p>
+        <p>Facebook : www.facebook.com/ief.official/</p>
+      
+    </div>
+  </div>
+
+    <footer>
+        <p>&copy; 2023 RM1 Campaign. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>
