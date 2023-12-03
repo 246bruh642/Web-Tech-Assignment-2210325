@@ -3,15 +3,19 @@ Welcome to the RM1 Campaign project! This initiative aims to facilitate monthly 
 
 Files
 1. RM1-Campaign-Broucher.html
+   
 The HTML file contains the main structure of the campaign brochure, including a donation form with fields for personal information, deduction amount, and duration. The form dynamically adjusts based on the selected category (Self or Kulliyyah-based). The page also features a Quranic verse, campaign information, and contact details for the IIUM Endowment Fund.
 
-2. styles.css
+3. styles.css
+   
 The CSS file provides styling for the HTML elements, creating an aesthetically pleasing and responsive layout. It includes styles for the body, header, form, columns, and footer, as well as specific styling for radio buttons and dropdowns.
 
-3. script.js
+5. script.js
+   
 The JavaScript file enhances the user experience by dynamically showing/hiding the Kulliyyah dropdown based on the selected category (Self or Kulliyyah-based). This ensures a smooth and user-friendly interaction with the form.
 
-4. images.zip
+7. images.zip
+   
 The images that are used in this project which are Background.jpg, Logo.jpg and donation.jpg
 Usage
 To participate in the RM1 Campaign:
