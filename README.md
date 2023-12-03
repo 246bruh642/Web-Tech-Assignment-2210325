@@ -36,3 +36,7 @@ Facebook: www.facebook.com/ief.official
 
 License
 © 2023 RM1 Campaign. All rights reserved.
+
+References
+1. Formstack. (n.d.). Survey Templates & Forms | Formstack. https://www.formstack.com/template-category/surveys
+2. HTML tutorial. (n.d.). https://www.w3schools.com/html/default.asp
